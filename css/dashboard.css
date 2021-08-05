@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+    width: 100%;
+    position:fixed;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adminlogin_button,.clientlogin_button{
+    border: 2px solid rgb(92, 67, 230);
+    border-radius: 5px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 20%;
+    color:black;
+    background: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.adminlogin_button:hover,.clientlogin_button:hover{
+	background-color: blue;
+}
